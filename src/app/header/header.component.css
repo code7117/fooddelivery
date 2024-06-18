@@ -1,0 +1,15 @@
+.nav-item a{
+    color: rgb(22, 175, 29);
+  
+}
+.nav-item a:hover{
+    background-color: black;
+ 
+}
+.icons a{
+color: black;
+padding: 5px 10px;
+text-decoration: none;
+margin-left: 15%;
+ 
+}

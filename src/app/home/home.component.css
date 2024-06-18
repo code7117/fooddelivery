@@ -1,0 +1,112 @@
+.slider-container {
+    position: relative;
+    width: 50%;
+    overflow: hidden;
+    margin-left: 25%;
+    margin-top: 10%;
+  }
+  
+  .slider {
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+  }
+  
+  .slide {
+    min-width: 100%;
+    box-sizing: border-box;
+  }
+  
+  img {
+    width: 100%;
+    display: block;
+  }
+  
+  .slider-btn {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    z-index: 1;
+  }
+  
+  .prev-btn {
+    left: 10px;
+  }
+  
+  .next-btn {
+    right: 10px;
+  }
+
+
+
+  /*banner st*/
+  .banner
+  {
+      background-image: url('https://images.pexels.com/photos/326281/pexels-photo-326281.jpeg?auto=compress&cs=tinysrgb&w=600');
+      height: 600px;
+      background-position: center top;
+      background-size: cover;
+  }
+  .content
+  {
+      top: 30%;
+      left: 20%;
+      position: absolute;
+  }
+  .content h1 
+  {
+      color: #fff;
+      font-size: 60px;
+      font-weight: bold;
+    
+  }
+  .content a 
+  {
+      text-decoration: none;
+      background-color: #fff;
+      color: var(--primary-color);
+      padding: 15px 20px;
+      border-radius: 5px;
+  }
+  
+  .content a:hover 
+  {
+      background-color: limegreen;
+      color: #fff;
+  }
+  
+   /*catgoris start*/
+   .categorisBox {
+    border-radius: 5px;
+    text-align: center;
+   background-image: url(https://images.pexels.com/photos/1939485/pexels-photo-1939485.jpeg?auto=compress&cs=tinysrgb&w=600);
+   background-repeat: no-repeat;
+   background-size: cover;
+}
+
+.categorisBox a {
+    text-decoration: none;
+    color: #000;
+}
+
+.categorisContent {
+    padding: 20px 20px;
+}
+
+.categorisContent img {
+    object-fit: cover;
+    border-radius: 50%;
+    border: 2px solid black;
+    width: 100px;
+   display: flex;
+}
+
+.categorisContent h4 {
+    margin-top: 15px;
+    font-size: 18px;
+    margin-right: 40%;
+}

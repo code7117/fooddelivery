@@ -1,0 +1,27 @@
+.cartBox
+{
+    background-color: black;
+    padding: 50px 50px;  
+     color: #fff;
+}
+
+.cartBox img 
+{
+    width: 100%;
+}
+
+.priceBox
+{
+    background-color: black;
+    padding: 30px 30px;
+    color: #fff;
+}
+
+@media screen and (max-width:600px) {
+    .cartBox img
+{
+    width: 50%;
+}
+
+
+}
